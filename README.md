@@ -15,7 +15,9 @@
 * [Results and Conclusion](#results-and-conclusion)
 
 ### Introduction
-The objective of the project is to use the Manipal Hospital data and predict the Net Promoter Score which would help improve the patient experience at Manipal Hospitals. 
+The business problem in this case is that Manipal Health Enterprises (MHE) is attempting to improve customer satisfaction rating which is expected to further improve the patient count at the hospital and lead to an increase in the profit made by the hospital. They want to monitor the Net Promoter Score (NPS) and make various business decisions by classifying the patients as Promoters, Passive or Detractors.
+They use various analytical and statistical tools to predict which rater belongs to which class thus making it an analytical problem. The real value was in understanding what leads to the NPS score, especially the causes of detractors and promoters and asking follow-up questions on the reason for the score.
+After the initial high-level review of the feedback survey MHE realized that the data could help draw valuable insights and opportunities ranging from in-depth analysis of department performance, staff or services offered, to improving the in-room experience or food and beverages section based on qualitative feedback. MHE believed that advanced analytics and machine learning played an important role in providing an edge to MHE in the competitive business scenario.
 
 ### Problem Statement
 * Predicting Net Promoter Score (NPS) to improve patients experience at Manipal Hospitals
@@ -53,5 +55,15 @@ The objective of the project is to use the Manipal Hospital data and predict the
 Accuracy 
 
 ### Results and Conclusion
-This dataset makes us aware of the different data cleaning processes and takes us step by step through that.
-Finally, using the large customer dataset, we understand how NPS can be used as an effective tool to understand customer concerns.
+Finally, we understand how NPS can be used as an effective tool to understand customer concerns. Below is our final result - 
+
+![alt text](manipalres.PNG)
+
+Below are some of the things which we have leant on account of our analysis - 
+
+* The strategy should follow the plan of controlling the important factors which lead to the customer’s response on the overall experience during their treatment at the hospital. * The forward selection model, helps to determine the important factors that was associated with response variable. 
+* The hospital should ensure to the work with the below variables to control the number of detractors - 
+
+"Department", "Estimated cost", "STATEZONE", "CE_ACCESSIBILITY", "CE_CSAT", "CE_VALUEFORMONEY", "EM_NURSING", "EM_DOCTOR", "AD_TARRIFFPACKAGESEXPLAINATION", "AD_STAFFATTITUDE", "INR_ROOMCLEANLINESS", "INR_ROOMAMBIENCE", "FNB_FOODDELIVERYTIME", "AE_PATIENTSTATUSINFO", "AE_ATTENDEEFOOD", "DOC_TREATMENTEXPLAINATION", "DOC_VISITS", "NS_CALLBELLRESPONSE", "NS_NURSEPROACTIVENESS", "OVS_OVERALLSTAFFPROMPTNESS", "DP_DISCHARGEQUERIES", "Length of Stay"
+
+
